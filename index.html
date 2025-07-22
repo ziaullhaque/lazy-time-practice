@@ -4,10 +4,202 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lazy Time</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
-    <header></header>
-    <main>  </main>
-    <footer></footer>
+    <header>
+      <nav class="nav-bar">
+        <figure><img src="./assets/images/logo.png" alt="" /></figure>
+        <div class="search">
+          <input placeholder="Search" type="search" name="" id="" />
+          <i class="fa-solid fa-magnifying-glass search_1"></i>
+        </div>
+        <div>
+          <ul class="nav-item">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main class="con">
+      <div class="banner">
+        <div class="banner-text">
+          <h2 class="led-tv">Mi LED TV 4A PRO 32</h2>
+          <p class="officia">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint. Velit officia consequat duis enim velit mollit. Exercitation
+            veniam consequat sunt nostrud amet.
+          </p>
+          <span class="amount">$1289</span>
+          <br />
+          <button class="bye-now">
+            BUY NOW <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+
+        <img
+          class="banner-image"
+          src="./assets/images/banner-images/tv.png"
+          alt=""
+        />
+      </div>
+      <section class="category">
+        <h2 class="categories">Categories</h2>
+        <div class="three-box">
+          <div class="box-one">
+            <h3>Wacth</h3>
+            <img
+              class="box-image-one"
+              src="./assets/images/categories/watch.png"
+              alt=""
+            />
+          </div>
+
+          <div class="box-two">
+            <h3>Bag</h3>
+            <img
+              class="box-image-two"
+              src="./assets/images/categories/bag.png"
+              alt=""
+            />
+          </div>
+
+          <div class="box-three">
+            <h3>Shoes</h3>
+            <img
+              class="box-image-three"
+              src="./assets/images/categories/shoes.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+      <section class="bg-color">
+        <div class="items-boxs">
+          <div>
+            <div class="sho-see">
+              <p class="shoes">Shoes</p>
+              <p class="all-see">See All</p>
+            </div>
+            <div class="box-item">
+              <div class="box-one-one">
+                <img src="./assets/images/shoes/shoe-1.png" alt="" />
+                <div class="it-bo-ti">Reebok Pump</div>
+                <div class="it-bo-des">
+                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                  amet sint.
+                </div>
+                <div class="it-bo-co">$799</div>
+                <button class="btn-buy">
+                  BUY NOW<i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </div>
+              <div class="box-one-one">
+                <img src="./assets/images/shoes/shoe-1.png" alt="" />
+                <div class="it-bo-ti">Reebok Pump</div>
+                <div class="it-bo-des">
+                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                  amet sint.
+                </div>
+                <div class="it-bo-co">$799</div>
+                <button class="btn-buy">
+                  BUY NOW<i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </div>
+              <div class="box-one-one">
+                <img src="./assets/images/shoes/shoe-1.png" alt="" />
+                <div class="it-bo-ti">Reebok Pump</div>
+                <div class="it-bo-des">
+                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                  amet sint.
+                </div>
+                <div class="it-bo-co">$799</div>
+                <button class="btn-buy">
+                  BUY NOW<i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="bg-color">
+        <div class="items-boxs">
+          <div>
+            <div class="sho-see">
+              <p class="shoes">Backpack</p>
+              <p class="all-see">See All</p>
+            </div>
+            <div class="box-item">
+              <div class="box-one-one">
+                <img src="./assets/images/bags/bag-1.png" alt="" />
+                <div class="it-bo-ti">Reebok Pump</div>
+                <div class="it-bo-des">
+                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                  amet sint.
+                </div>
+                <div class="it-bo-co">$799</div>
+                <button class="btn-buy">
+                  BUY NOW<i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </div>
+              <div class="box-one-one">
+                <img src="./assets/images/bags/bag-1.png" alt="" />
+                <div class="it-bo-ti">Reebok Pump</div>
+                <div class="it-bo-des">
+                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                  amet sint.
+                </div>
+                <div class="it-bo-co">$799</div>
+                <button class="btn-buy">
+                  BUY NOW<i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </div>
+              <div class="box-one-one">
+                <img src="./assets/images/bags/bag-1.png" alt="" />
+                <div class="it-bo-ti">Reebok Pump</div>
+                <div class="it-bo-des">
+                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                  amet sint.
+                </div>
+                <div class="it-bo-co">$799</div>
+                <button class="btn-buy">
+                  BUY NOW<i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="fot-ter">
+      <div class="foo-ter">
+        <h1 class="let-stay">LET'S STAY IN TOUCH</h1>
+        <h3 class="get-update">Get updates on sales specials and more</h3>
+        <div class="email-box">
+          <input
+            class="email-input"
+            placeholder="Enter your email"
+            type="email"
+          />
+          <button class="send">SEND</button>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
